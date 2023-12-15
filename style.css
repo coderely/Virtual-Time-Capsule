@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+span
+{
+    color: crimson
+}
+body{
+    background: url('bg.jpg');
+    height: 67vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.nav-links {
+    display: flex;
+    cursor: pointer;
+
+    align-items: center;
+    
+}
+a{
+    color: #fff;
+
+}
+.nav-links li:hover{
+    transform: scale(1.1);
+}
+.nav-links li {
+    position: relative;
+    font-style: bold;
+    padding: 0 30px;
+}
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Virtual\ Time.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content {
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h2 {
+    font-size: 6vmin;
+    font-style: arial;
+}
+.header-content h1 {
+    font-size: 8vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn {
+    padding: 6px 13px;
+    background: rgb(254, 254, 254);
+    border-radius: 20px;
+    color: black;
+}
+main{
+    margin: 300px 0;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h1 h1{
+    font-size: 75px;
+}
+.h1 p{
+    font-size: 60px;
+    font-family: 'Whisper', cursive;
+    margin-top: -10px;
+}
+.img-con img{
+    width: 100px;
+    margin-top: 100px;
+}
